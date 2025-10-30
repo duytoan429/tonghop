@@ -64,7 +64,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepza
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/HieuDepTrai-Z/KiwiHubFree/refs/heads/main/KiwiHub.lua"))()
   end
   })
-  
+
+AddButton(Tab2o, {
+     Name = "Doraemon hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/KiddoHiru/BloxFruits/main/MasterHub.lua"))()
+  end
+  })
+
   AddButton(Tab3o, {
      Name = "Kurd hub",
     Callback = function()
