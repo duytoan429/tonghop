@@ -131,6 +131,13 @@ AddButton(Tab2o, {
   end
   })
 
+AddButton(Tab2o, {
+     Name = "Đạt thg",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV2"))()
+  end
+  })
+
   AddButton(Tab3o, {
      Name = "Kurd hub",
     Callback = function()
