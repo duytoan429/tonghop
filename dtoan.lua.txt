@@ -158,7 +158,14 @@ AddButton(Tab2o, {
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Ninja10908/S4/refs/heads/main/Kurdhub"))()
   end
   })
-  
+
+AddButton(Tab3o, {
+     Name = "Lemon hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://pastefy.app/MJw2J4T6/raw"))()
+  end
+  })
+
   AddButton(Tab4o, {
      Name = "Cps hub",
     Callback = function()
