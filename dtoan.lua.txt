@@ -139,16 +139,16 @@ AddButton(Tab2o, {
   })
 
 AddButton(Tab2o, {
-     Name = "gravity hub",
+     Name = "maru hub",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/trongdeptraihucscript/MaruHubPremium/refs/heads/main/MaruHubPremium.lua"))()
   end
   })
 
 AddButton(Tab2o, {
-     Name = "astra hub",
+     Name = "w azure",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()
   end
   })
 
