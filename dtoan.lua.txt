@@ -183,7 +183,7 @@ AddButton(Tab5o, {
   })
 
 AddButton(Tab6o, {
-     Name = "Nolag hub,
+     Name = "Nolag hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/Loader/Main.lua"))()
   })
