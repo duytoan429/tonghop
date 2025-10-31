@@ -85,7 +85,8 @@ end)
      local Tab2o = MakeTab({Name = "Blox fruit"})
      local Tab3o = MakeTab({Name = "SAB"})
      local Tab4o = MakeTab({Name = "99 Night"})
-     local Tab5o = MakeTab({Name = "Khác"})
+     local Tab5o = MakeTab({Name = "evade"})
+     local Tab6o = MakeTab({Name = "Khác"})
      
 ------- BUTTON
     AddButton(Tab1o, {
@@ -172,7 +173,15 @@ AddButton(Tab3o, {
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Rx1m/CpsHub/refs/heads/main/Hub",true))()
   end
   })
+
 AddButton(Tab5o, {
+     Name = "luminary x rise",
+    Callback = function()
+	  loadstring(game:HttpGet("https://rawscripts.net/raw/Evade-Luminary-X-Rise-HUB-51816"))()
+  end
+  })
+
+AddButton(Tab6o, {
      Name = "Bất tử all",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Rawbr10/Roblox-Scripts/refs/heads/main/God%20Mode%20Script%20Universal"))()
