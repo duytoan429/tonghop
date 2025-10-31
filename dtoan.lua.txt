@@ -83,10 +83,11 @@ end)
 ------ Tab
      local Tab1o = MakeTab({Name = "Thông tin"})
      local Tab2o = MakeTab({Name = "Blox fruit"})
-     local Tab3o = MakeTab({Name = "SAB"})
+     local Tab3o = MakeTab({Name = "Steal a brainrot"})
      local Tab4o = MakeTab({Name = "99 Night"})
      local Tab5o = MakeTab({Name = "evade"})
-     local Tab6o = MakeTab({Name = "Khác"})
+     local Tab6o = MakeTab({Name = "Grow a gaden"})
+     local Tab7o = MakeTab({Name = "Khác"})
      
 ------- BUTTON
     AddButton(Tab1o, {
@@ -181,7 +182,7 @@ AddButton(Tab5o, {
   end
   })
 
-AddButton(Tab6o, {
+AddButton(Tab7o, {
      Name = "Bất tử all",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Rawbr10/Roblox-Scripts/refs/heads/main/God%20Mode%20Script%20Universal"))()
