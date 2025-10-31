@@ -124,6 +124,13 @@ AddButton(Tab2o, {
   end
   })
 
+AddButton(Tab2o, {
+     Name = "Zee hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://zuwz.me/Ls-Zee-Hub"))()
+  end
+  })
+
   AddButton(Tab3o, {
      Name = "Kurd hub",
     Callback = function()
