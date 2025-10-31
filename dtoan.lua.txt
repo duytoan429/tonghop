@@ -182,8 +182,14 @@ AddButton(Tab5o, {
   end
   })
 
+AddButton(Tab6o, {
+     Name = "Nolag hub,
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/Loader/Main.lua"))()
+  })
+
 AddButton(Tab7o, {
-     Name = "Bất tử all",
+     Name = "Bất tử",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Rawbr10/Roblox-Scripts/refs/heads/main/God%20Mode%20Script%20Universal"))()
   end
