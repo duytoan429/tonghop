@@ -103,6 +103,13 @@ AddButton(Tab2o, {
   end
   })
 
+AddButton(Tab2o, {
+     Name = "Quantum hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+  end
+  })
+
   AddButton(Tab3o, {
      Name = "Kurd hub",
     Callback = function()
