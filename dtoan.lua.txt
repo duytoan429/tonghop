@@ -151,3 +151,9 @@ AddButton(Tab7o, {
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Rawbr10/Roblox-Scripts/refs/heads/main/God%20Mode%20Script%20Universal"))()
   end
   })
+
+AddButton(Tab7o, {
+     Name = "anura x Meow",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/anuragaming1/Meow_gaming/refs/heads/main/Servervip.lua.txt"))()
+  })
