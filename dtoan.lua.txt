@@ -110,6 +110,13 @@ AddButton(Tab2o, {
   end
   })
 
+AddButton(Tab2o, {
+     Name = "astral hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+  end
+  })
+
   AddButton(Tab3o, {
      Name = "Kurd hub",
     Callback = function()
