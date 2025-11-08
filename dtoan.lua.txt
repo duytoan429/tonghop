@@ -153,6 +153,13 @@ AddButton(Tab5o, {
   end
   })
 
+AddButton(Tab5o, {
+     Name = "Dragon hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RequideSync/Dragon/refs/heads/main/file/Evade/Loader.lua"))()
+  end
+  })
+
 AddButton(Tab6o, {
      Name = "No lag hub",
     Callback = function()
