@@ -36,7 +36,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/duytoan429/Menu/refs
      local Tab4o = MakeTab({Name = "99 Night"})
      local Tab5o = MakeTab({Name = "evade"})
      local Tab6o = MakeTab({Name = "Grow a gaden"})
-     local Tab7o = MakeTab({Name = "Khác"})
+     local Tab7o = MakeTab({Name = "crossover"})
+     local Tab8o = MakeTab({Name = "Khác"})
      
 ------- BUTTON
     AddButton(Tab1o, {
@@ -160,13 +161,27 @@ AddButton(Tab6o, {
   })
 
 AddButton(Tab7o, {
+     Name = "goomba hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/AriseCrossover.lua"))()
+  end
+  })
+
+AddButton(Tab7o, {
+     Name = "arise crossover",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/perfectusmim1/script/refs/heads/main/crossover"))()
+  end
+  })
+
+AddButton(Tab8o, {
      Name = "Bất tử",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Rawbr10/Roblox-Scripts/refs/heads/main/God%20Mode%20Script%20Universal"))()
   end
   })
 
-AddButton(Tab7o, {
+AddButton(Tab8o, {
      Name = "anura x Meow",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/anuragaming1/Meow_gaming/refs/heads/main/Servervip.lua.txt"))()
